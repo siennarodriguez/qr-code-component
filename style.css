@@ -9,6 +9,8 @@ body {
     min-height: 100vh;
     display: flex;
     align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 
 p {
@@ -43,4 +45,16 @@ p {
 .text h2 {
     color: hsl(218, 44%, 22%);
     padding-bottom: 20px;
+}
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center;
+    margin-top: 20px;
+    color: hsl(218, 44%, 22%);
+
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
 }
